@@ -15,11 +15,18 @@ body {
 .menu {
   background-color: #ffffff22;
   display: flex;
+  font-size: 20px;
   flex-direction: column;
   min-height: 100vh;
+  margin: 0;
+  padding-top: 30px;
+  padding: 30px;
+
+  
 }
 .menu a {
-  color: white;
+  color: #c3d0e1;
+  line-height: 3;
 }
 
 .main {
@@ -28,8 +35,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+
 .main h1 {
   color: #8a2442;
+  font-size: 48px;
 }
 .main input {
   border-radius: 6px;
