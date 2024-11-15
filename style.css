@@ -24,7 +24,7 @@ input, textarea {
   color: #0f1329;
   font-family: "Sour Gummy";
 }
-button {
+.mysubmit {
   border: none;
   color: #90abd0;
   padding: 7px 7px;
@@ -36,3 +36,15 @@ button {
   font-family: "Sour Gummy";
 }
 
+button { 
+  border: none;
+  border-radius: 6px;
+  color: #0f1329;
+  padding: 7px 7px;
+  text-align: center;
+  background-color: #c3d0e1;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Sour Gummy";
+}
