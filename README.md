@@ -25,10 +25,9 @@ This program was created by:
 * Anahat Ghuman (anakaurghuman@gmail.com)
 * Lindsey Yu (lindseyu08@gmail.com)
 
-Acknowledgment
+Acknowledgment: 
 This project was created as part of the FBLA competitive event, Introduction to Programming.
 
-Thank You
 We hope you enjoy Unsolved and appreciate the effort that went into its creation. Thank you for exploring our story!
 
 
