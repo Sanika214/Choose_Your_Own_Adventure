@@ -2,8 +2,8 @@
 
 body {
   font-family: "Sour Gummy";
-  background-color: #0f1329;
-  color: #90abd0;
+  background-color: #FFEFD3;
+  color: #001B2E;
   font-size: 20px;
   margin: 0;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .menu {
-  background-color: #ffffff22;
+  background-color: #294C60;
   display: flex;
   font-size: 20px;
   flex-direction: column;
@@ -25,7 +25,7 @@ body {
   
 }
 .menu a {
-  color: #c3d0e1;
+  color: #ADB6C4;
   line-height: 3;
 }
 
@@ -38,7 +38,7 @@ body {
 
 
 .main h1 {
-  color: #8a2442;
+  color: #001B2E;
   font-size: 48px;
 }
 .main input {
@@ -64,10 +64,10 @@ body {
 .main button { 
   border: none;
   border-radius: 6px;
-  color: #0f1329;
+  color: #cc814d;
   padding: 7px 7px;
   text-align: center;
-  background-color: #c3d0e1;
+  background-color: #FFC49B;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
