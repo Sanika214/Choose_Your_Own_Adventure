@@ -1,4 +1,4 @@
-Our Program Name is Unsolved. 
+Our Program name is Unsolved. 
 
 The purpose of this program is to allow the user to experience an adventure where they can decide the outcome of the story. The user chooses from the options available as they make their way through the stages of our thriller story. We used different languages, HTML was the main language we used, javascript was used to code for buttons, and CSS was used for formatting and stylization. 
 We hope to add a continuation of this storyline as a second part in addition to this adventure. 
