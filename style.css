@@ -28,7 +28,7 @@ body {
   padding-top: 30px;
   padding: 30px;
   width: 250px;
-
+  flex: 0 0 auto;
   
 }
 .menu a {
