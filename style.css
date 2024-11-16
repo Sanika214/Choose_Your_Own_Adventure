@@ -38,7 +38,7 @@ body {
 
 
 .main h1 {
-  color: #ADB6C4;
+  color: #2976c0;
   font-size: 48px;
 }
 .main input {
@@ -64,10 +64,10 @@ body {
 .main button { 
   border: none;
   border-radius: 6px;
-  color: #294C60;
+  color: #001B2E;
   padding: 7px 7px;
   text-align: center;
-  background-color: #fdd858;
+  background-color: #ADB6C4;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
