@@ -41,6 +41,11 @@ body {
   color: #2976c0;
   font-size: 48px;
 }
+
+.main h2 {
+  color: #f1c43d;
+   font-size: 24px;
+}
 .main input {
   border-radius: 6px;
   padding: 8px;
