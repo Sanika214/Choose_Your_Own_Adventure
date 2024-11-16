@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-<div class="container">
- <div class="menu">
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="menu">
         <a style="text-decoration:none" href="welcome.html">Welcome Page</a>
         <a style="text-decoration:none" href="intro.html">Intro (Pre-Stage 1)</a>
         <a style="text-decoration:none" href="aboutUnsolved.html">About Unsolved!</a>
         <a style="text-decoration:none" href="help.html">Help</a>
       </div>
-        
-  <!-- stage 1 choice -->
 
-   <div class="main">
-<h1>Check the Desk</h1>
-     <h2> (There might be notes or a journal with helpful information) </h1>
+      <!-- stage 1 choice -->
+      
+      
+      
+<div class="maincontainer" >
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b" alt="forest">
+  </div>
+  <div class="main">
+        <h1>Check the Desk</h1>
+        <h2> (There might be notes or a journal with helpful information) </h1>
 
-  <!-- choice result text -->
-  <p>
-You find Chloe’s school planner, filled with assignments and doodles, and a recent note mentioning that she will be exploring the woods with friends. This could be important. The forest seems like a good place to look.
-</p>
-  
-  <button onclick="submit()">continue to next stage</button>
-</div>
-  
-<script>
-  //code to allow user to move on to next stage
-function submit(){
-  window.location.href = 'stage2.html';
-}
-</script>
-  
-</body>
+        <!-- choice result text -->
+        <p>
+          You find Chloe’s school planner, filled with assignments and doodles, and a recent note mentioning that she will be exploring the woods with friends. This could be important. The forest seems like a good place to look.
+        </p>
+
+        <button onclick="submit()">continue to next stage</button>
+
+
+      </div>
+
+    </div>  
+    </div>
+    
+    
+    <script>
+      //code to allow user to move on to next stage
+      function submit(){
+        window.location.href = 'stage2.html';
+      }
+    </script>
+
+  </body>
 </html>
