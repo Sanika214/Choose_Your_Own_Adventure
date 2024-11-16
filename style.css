@@ -2,7 +2,7 @@
 
 body {
   font-family: "Sour Gummy";
-  background-color: #FFEFD3;
+  background-color: #white;
   color: #001B2E;
   font-size: 20px;
   margin: 0;
@@ -38,7 +38,7 @@ body {
 
 
 .main h1 {
-  color: #001B2E;
+  color: #fdd858;
   font-size: 48px;
 }
 .main input {
@@ -46,7 +46,7 @@ body {
   padding: 8px;
   border: none;
   font-size: 20px;
-  background-color: white;
+  background-color: #FFEFD3;
   color: #0f1329;
   font-family: "Sour Gummy";
 }
