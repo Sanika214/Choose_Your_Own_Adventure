@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-<div class="container">
- <div class="menu">
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="menu">
         <a style="text-decoration:none" href="welcome.html">Welcome Page</a>
         <a style="text-decoration:none" href="intro.html">Intro (Pre-Stage 1)</a>
         <a style="text-decoration:none" href="aboutUnsolved.html">About Unsolved!</a>
         <a style="text-decoration:none" href="help.html">Help</a>
       </div>
-  
-     <div class="main">
-<h1>Enter the cabin through the front door (It’s obviously the easiest thing to do)</h1>
 
-  <p>
-You slowly enter the dimly lit house and see a note on a table, “Look behind you”. All of a sudden the door slams shut behind you. You turn around to see an unfamiliar face. Oh no! You realize you walked straight into the kidnapper’s plan. He lunges at you, and easily overpowers you in the struggle. You barely escape his grasp and retreat. Unfortunately, you are unable to save Chloe. You head back to town in despair. GAME OVER!  
-</p>
+      <!-- stage 1 choice -->
+      
+      
+      
+<div class="maincontainer" >
+      <div class="image">
+        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b" alt="forest">
+  </div>
+  <div class="main">
+        <h1>Check the Desk</h1>
+        <h2> (There might be notes or a journal with helpful information) </h1>
 
-  <button onclick="submit()">continue to next stage</button>
-</div>
-  
-<script>
-function submit(){
-  window.location.href = 'intro.html';
-}
-</script>
-  
-</body>
+        <!-- choice result text -->
+        <p>
+          You find Chloe’s school planner, filled with assignments and doodles, and a recent note mentioning that she will be exploring the woods with friends. This could be important. The forest seems like a good place to look.
+        </p>
+
+        <button onclick="submit()">continue to next stage</button>
+
+
+      </div>
+
+    </div>  
+    </div>
+    
+    
+    <script>
+      //code to allow user to move on to next stage
+      function submit(){
+        window.location.href = 'stage2.html';
+      }
+    </script>
+
+  </body>
 </html>
