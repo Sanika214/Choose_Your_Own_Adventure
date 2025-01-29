@@ -29,6 +29,7 @@
 <p>
   Are you ready? type YES to begin (type STOP to quit)
 </p>
+    
 <!-- receives user input -->
 <input type="text" id="input" />
   <button onclick="submit()">submit</button>
@@ -38,14 +39,17 @@
   
 <script>
   //codes for submit button
+  
 function submit(){
   var begin = document.getElementById("input").value;
   sessionStorage.setItem('begin',begin);
   //moves user to next stage if they say "YES"
+  
 if (begin == "YES"){
   window.location.href = 'stage1.html';
 }
   //moves user back to home page if they say "STOP"
+  
 else if (begin == "STOP"){
   window.location.href = 'introStop.html';
 }
