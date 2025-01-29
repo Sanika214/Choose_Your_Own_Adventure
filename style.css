@@ -158,6 +158,6 @@ body {
   border: none;
   cursor: pointer;
   z-index: 1000; /* Ensures it stays above other elements */
-  width: 25px; /* Adjust size as needed */
-  height: 25px;
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
 }
