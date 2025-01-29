@@ -158,4 +158,8 @@ body {
   border: none;
   cursor: pointer;
   z-index: 1000; /* Ensures it stays above other elements */
+
+  .audio-button img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
 }
