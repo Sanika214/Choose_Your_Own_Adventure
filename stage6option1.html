@@ -34,6 +34,25 @@ function submit(){
   window.location.href = 'stage7.html';
 }
 </script>
+
+   
+ <button class="audio-button" onclick="playAudio()" type="button">
+      <img src="volume_up_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="Audio Button">
+
+    </button>
+
+    <audio id="myAudio">
+      <source src="horse.mp3" type="audio/mpeg">
+
+    </audio>
+
+    <script>
+      var x = document.getElementById("myAudio");
+
+      function playAudio() {
+        x.play();
+      }
+    </script>
   
 </body>
 </html>
