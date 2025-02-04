@@ -83,13 +83,20 @@ body {
 
 /* Styling for input fields */
 .main input {
-  border-radius: 6px; /* Adds rounded corners to input fields for a modern look. */
-  padding: 8px; /* Ensures that text inside the input is not cramped. */
-  border: none; /* Removes default border styling for a cleaner appearance. */
-  font-size: 20px; /* Increases font size to improve readability. */
-  background-color: #FFEFD3; /* Light cream color provides contrast without being too harsh. */
-  color: #0f1329; /* Dark text ensures readability. */
-  font-family: "Sour Gummy"; /* Maintains font consistency throughout the page. */
+  /* Adds rounded corners to input fields for a modern look. */
+  border-radius: 6px; 
+  /* Ensures that text inside the input is not cramped and doesn't touch the edges. */
+  padding: 8px; 
+  /* Removes default border styling for a cleaner appearance. */
+  border: none; 
+  /* Increases font size to improve readability, especially for use on large screens. */
+  font-size: 20px; 
+  /* Light cream color provides a gentle contrast without being too harsh. */
+  background-color: #FFEFD3; 
+  /* Dark text ensures readability against the backgroun. */
+  color: #0f1329; 
+  /* Maintains a unique and interesting font consistent throughout the pages. */
+  font-family: "Sour Gummy"; 
 }
 
 /* Styling for submit button */
