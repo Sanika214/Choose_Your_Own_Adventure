@@ -38,24 +38,23 @@
 
   
 <script>
-  //codes for submit button
   
+//codes for submit button
 function submit(){
   var begin = document.getElementById("input").value;
-  sessionStorage.setItem('begin',begin);
-  //moves user to next stage if they say "YES"
-  
-if (begin == "YES"){
-  window.location.href = 'stage1.html';
-}
-  //moves user back to home page if they say "STOP"
-  
-else if (begin == "STOP"){
-  window.location.href = 'introStop.html';
-}
-  else {
-    
-  }
+      sessionStorage.setItem('begin',begin);
+      //moves user to next stage if they say "YES"
+      if (begin == "YES"){
+        window.location.href = 'stage1.html';
+    }
+      //moves user back to home page if they say "STOP"  
+      else if (begin == "STOP"){
+        window.location.href = 'introStop.html';
+    }
+      //codes for a small alert if the input isn't expected. 
+      else {
+      alert("This input is not correct, please try again");
+    }
 }
   //retrieves the user name input from the welcome page
    var nameTypedInBeginning = sessionStorage.getItem('name');
